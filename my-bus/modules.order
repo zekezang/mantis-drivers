@@ -1,0 +1,3 @@
+kernel//sourcecode/arm-workspace/my-bus/my-bus.ko
+kernel//sourcecode/arm-workspace/my-bus/my-device.ko
+kernel//sourcecode/arm-workspace/my-bus/my-driver.ko

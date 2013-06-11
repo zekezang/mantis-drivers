@@ -1,0 +1,1 @@
+cmd_/home/zekezang/workspace-sources/memdev-bus/memdev-bus.ko := arm-linux-ld -EL -r  -T /sourcecode/arm-workspace/linux-2.6.38-used/scripts/module-common.lds --build-id  -o /home/zekezang/workspace-sources/memdev-bus/memdev-bus.ko /home/zekezang/workspace-sources/memdev-bus/memdev-bus.o /home/zekezang/workspace-sources/memdev-bus/memdev-bus.mod.o

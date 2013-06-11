@@ -1,0 +1,1 @@
+cmd_/sourcecode/arm-workspace/my-bus/my-device.ko := arm-linux-ld -EL -r  -T /sourcecode/arm-workspace/linux-2.6.38-used/scripts/module-common.lds --build-id  -o /sourcecode/arm-workspace/my-bus/my-device.ko /sourcecode/arm-workspace/my-bus/my-device.o /sourcecode/arm-workspace/my-bus/my-device.mod.o

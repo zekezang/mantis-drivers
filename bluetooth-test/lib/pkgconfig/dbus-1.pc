@@ -1,0 +1,16 @@
+prefix=/home/build/bluez-20120928/build-out
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+system_bus_default_address=unix:path=/home/build/bluez-20120928/build-out/var/run/dbus/system_bus_socket
+sysconfdir=/home/build/bluez-20120928/build-out/etc
+session_bus_services_dir=/home/build/bluez-20120928/build-out/share/dbus-1/services
+system_bus_services_dir=/home/build/bluez-20120928/build-out/share/dbus-1/system-services
+interfaces_dir=/home/build/bluez-20120928/build-out/share/dbus-1/interfaces
+daemondir=/home/build/bluez-20120928/build-out/bin
+
+Name: dbus
+Description: Free desktop message bus
+Version: 1.5.0
+Libs: -L${libdir} -ldbus-1 -lpthread -lrt 
+Cflags: -I${includedir}/dbus-1.0 -I${libdir}/dbus-1.0/include

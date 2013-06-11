@@ -1,0 +1,27 @@
+
+
+arm-linux-gcc hci-test.c -o hci-test -I/sourcecode/arm-workspace/bluetooth-test/include -L/sourcecode/arm-workspace/bluetooth-test/lib -lbluetooth -O2
+
+
+
+arm-linux-gcc l2test.c -o l2test -I/sourcecode/arm-workspace/bluetooth-test/include -L/sourcecode/arm-workspace/bluetooth-test/lib -lbluetooth -O2
+
+
+arm-linux-gcc l2captest.c -o l2captest -I/sourcecode/arm-workspace/bluetooth-test/include -L/sourcecode/arm-workspace/bluetooth-test/lib -lbluetooth -O2
+
+
+arm-linux-gcc l2server-client.c -o l2server-client -I/sourcecode/arm-workspace/bluetooth-test/include \
+-L/sourcecode/arm-workspace/bluetooth-test/lib -lbluetooth -lpthread -O2
+
+
+arm-linux-gcc rfcomm_test.c -o rf -I/sourcecode/arm-workspace/bluetooth-test/include \
+-L/sourcecode/arm-workspace/bluetooth-test/lib -lbluetooth -O2
+
+
+
+
+arm-linux-gcc rfcomm_client.c -o rfcomm_client -I/sourcecode/arm-workspace/bluetooth-test/include \
+-L/sourcecode/arm-workspace/bluetooth-test/lib -lbluetooth
+
+arm-linux-gcc rfcomm_server.c -o rfcomm_server -I/sourcecode/arm-workspace/bluetooth-test/include \
+-L/sourcecode/arm-workspace/bluetooth-test/lib -lbluetooth

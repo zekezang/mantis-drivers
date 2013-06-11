@@ -1,0 +1,1 @@
+cmd_/sourcecode/arm-workspace/mymdev/mymdev.ko := arm-linux-ld -EL -r  -T /sourcecode/arm-workspace/linux-2.6.38-used/scripts/module-common.lds --build-id  -o /sourcecode/arm-workspace/mymdev/mymdev.ko /sourcecode/arm-workspace/mymdev/mymdev.o /sourcecode/arm-workspace/mymdev/mymdev.mod.o

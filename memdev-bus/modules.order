@@ -1,0 +1,3 @@
+kernel//home/zekezang/workspace-sources/memdev-bus/memdev-bus.ko
+kernel//home/zekezang/workspace-sources/memdev-bus/memdev-device.ko
+kernel//home/zekezang/workspace-sources/memdev-bus/memdev-driver.ko

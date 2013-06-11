@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/built-in.o :=  /home/build/jennifer/m3-ICS-mid/customer/common/build/arm-2010q1-202-arm-none-linux-gnueabi-i686-pc-linux-gnu/bin/arm-none-linux-gnueabi-ld -EL    -r -o drivers/bluetooth/built-in.o drivers/bluetooth/bcm203x.o drivers/bluetooth/btusb.o 

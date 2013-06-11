@@ -1,0 +1,1 @@
+cmd_/sourcecode/arm-workspace/block-test/myblock.ko := arm-linux-ld -EL -r  -T /sourcecode/linux-2.6.38-used/scripts/module-common.lds --build-id  -o /sourcecode/arm-workspace/block-test/myblock.ko /sourcecode/arm-workspace/block-test/myblock.o /sourcecode/arm-workspace/block-test/myblock.mod.o

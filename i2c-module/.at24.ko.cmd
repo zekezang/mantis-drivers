@@ -1,0 +1,1 @@
+cmd_/sourcecode/arm-workspace/i2c-module/at24.ko := arm-linux-ld -EL -r  -T /sourcecode/arm-workspace/linux-2.6.38/scripts/module-common.lds --build-id  -o /sourcecode/arm-workspace/i2c-module/at24.ko /sourcecode/arm-workspace/i2c-module/at24.o /sourcecode/arm-workspace/i2c-module/at24.mod.o

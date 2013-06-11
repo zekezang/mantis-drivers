@@ -1,0 +1,2 @@
+kernel/drivers/bluetooth/bcm203x.ko
+kernel/drivers/bluetooth/btusb.ko

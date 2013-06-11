@@ -1,0 +1,1 @@
+cmd_/sourcecode/arm-workspace/gpio-gpk13-test/gpk13.ko := arm-linux-ld -EL -r  -T /sourcecode/arm-workspace/linux-2.6.38-used/scripts/module-common.lds --build-id  -o /sourcecode/arm-workspace/gpio-gpk13-test/gpk13.ko /sourcecode/arm-workspace/gpio-gpk13-test/gpk13.o /sourcecode/arm-workspace/gpio-gpk13-test/gpk13.mod.o
